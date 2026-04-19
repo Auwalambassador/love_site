@@ -1,0 +1,47 @@
+body {
+  background: #ffdde1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial;
+}
+
+.container {
+  text-align: center;
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px pink;
+}
+
+h1 {
+  color: #ff4d6d;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#yesBtn {
+  background-color: #ff4d6d;
+  color: white;
+}
+
+#noBtn {
+  background-color: gray;
+  color: white;
+  position: absolute;
+  
+}
+
+#message {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #ff4d6d;
+}
